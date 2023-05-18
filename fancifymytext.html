@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+		<!--<link rel="stylesheet" href="styles.css" />-->
+		<script src="my-js-file.js" defer></script>
+		<!-- link to your script file here -->
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+		<form>
+			<fieldset>
+				<legend>Text</legend>
+				
+				<!--User Text Area-->
+				<textarea rows="4" cols="30" id="myTextArea"></textarea>
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Fancify</legend>
+				
+				<!--Submit Button-->
+				<button type="submit" onclick="bigger(); return false">Bigger!</button>
+
+				<!--Capitalize Button-->
+				<button type="submit" onclick="capitalize(); return false">MOO</button>
+				
+				<!--Fancy Radio Button-->
+				<label>
+					<input type="radio" id="fButton" onchange="radioButton()" name="style" value="fancy" >
+					FancyShmancy
+				</label>
+				
+				<!--Boring Radio Button-->
+				<label>
+					<input type="radio" id="bButton" onchange="radioButton()" name="style" value="boring">
+					BoringBetty
+				</label>
+
+			</fieldset>
+		</form>
+		<!-- Your UI controls go here -->
+		
+	</body>
+</html>
