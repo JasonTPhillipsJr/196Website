@@ -12,8 +12,8 @@ p{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 200px;
+    padding-right: 200px;
     white-space: normal;
 
     margin: 0;
